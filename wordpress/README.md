@@ -1,4 +1,4 @@
 # wordpress
 
-TODO: Enter the cookbook description here.
+Chef cookbook for deploying Wordpress running with PHP, Apache and MySql 
 

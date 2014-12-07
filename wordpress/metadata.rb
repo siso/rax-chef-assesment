@@ -6,3 +6,7 @@ description      'Installs/Configures wordpress'
 long_description 'Installs/Configures wordpress'
 version          '0.1.0'
 
+depends          'apache2'
+depends          'php'
+depends          'php-fpm'
+depends          'mysql'
