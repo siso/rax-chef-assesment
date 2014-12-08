@@ -7,7 +7,7 @@
 include_recipe "mysql::client"
 include_recipe "mysql::server"
 
-node.set['mysql']['server_root_password'] = 'yolo'
+node.set['mysql']['server_root_password'] = 'tSHCBzmhZdNKPoFJq'
 node.set['mysql']['port'] = '3308'
 node.set['mysql']['data_dir'] = '/data'
 
