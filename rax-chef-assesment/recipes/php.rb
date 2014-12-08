@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: wordpress
-# Recipe:: apache
+# Recipe:: php
 #
 # Copyright (c) 2014 The Authors, All Rights Reserved.
 
