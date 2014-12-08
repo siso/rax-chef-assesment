@@ -7,7 +7,7 @@
 
 include_recipe "apt"
 
-include_recipe "wordpress::apache"
-include_recipe "wordpress::php"
-include_recipe "wordpress::mysql"
+include_recipe "rax-chef-assesment::apache"
+include_recipe "rax-chef-assesment::php"
+include_recipe "rax-chef-assesment::mysql"
 include_recipe "wordpress"
