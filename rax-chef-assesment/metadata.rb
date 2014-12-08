@@ -6,6 +6,7 @@ description      'Installs wordpress on LAMP stack'
 long_description 'Installs wordpress on LAMP stack'
 version          '0.1.0'
 
+depends          'apt'
 depends          'apache2'
 depends          'php'
 depends          'php-fpm'

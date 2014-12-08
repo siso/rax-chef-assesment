@@ -1,9 +1,7 @@
 #
 # Cookbook Name:: rax-chef-assesment
-# Recipe:: apache
+# Recipe:: wordpress
 #
 # Copyright (c) 2014 The Authors, All Rights Reserved.
 
-include_recipe "apache2"
-include_recipe "apache2::mod_php5" 
-
+include_recipe "wordpress"

@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: wordpress
+# Cookbook Name:: rax-chef-assesment
 # Recipe:: php
 #
 # Copyright (c) 2014 The Authors, All Rights Reserved.
@@ -17,5 +17,7 @@ phpmyadmin_db 'Test DB' do
     password 'password'
     hide_dbs %w{ information_schema mysql phpmyadmin performance_schema }
 end 
+
+
 
 
