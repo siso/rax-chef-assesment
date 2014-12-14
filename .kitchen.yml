@@ -4,6 +4,7 @@ driver:
 
 provisioner:
   name: chef_zero
+  require_chef_omnibus: 11.16.4
 
 platforms:
   - name: ubuntu-12.04
@@ -12,5 +13,5 @@ suites:
   - name: default
     run_list:
       - recipe[apt]
-      - recipe[wordpress::default]
+      - recipe[rax-chef-assesment::default]
     attributes:

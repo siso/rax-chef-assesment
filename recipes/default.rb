@@ -8,6 +8,6 @@
 include_recipe "rax-chef-assesment::apache"
 include_recipe "rax-chef-assesment::php"
 include_recipe "rax-chef-assesment::mysql"
-include_recipe "rax-chef-assesment::wordpress"
-include_recipe "rax-chef-assesment::phpmyadmin"
+# include_recipe "rax-chef-assesment::wordpress"
+# include_recipe "rax-chef-assesment::phpmyadmin"
 include_recipe "rax-chef-assesment::varnish"

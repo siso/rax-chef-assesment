@@ -8,12 +8,11 @@ include_recipe "phpmyadmin"
 
 phpmyadmin_db 'Test DB' do
     host '127.0.0.1'
-    home '/var/www/'
     port 3306
     username 'root'
     password 'tSHCBzmhZdNKPoFJq'
     hide_dbs %w{ information_schema mysql phpmyadmin performance_schema }
-end 
+end
 
 web_app 'phpmyadmin' do
   template '/etc/apache2/conf-available/phpmyadmin.conf' do
@@ -21,4 +20,3 @@ web_app 'phpmyadmin' do
   end
   enable true
 end
-
